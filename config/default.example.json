@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "mongoURL": "mongodb+srv://<login>:<password>@mern-s1bxs.mongodb.net/app?retryWrites=true&w=majority",
+    "JWT_TOKEN": "secretkey"
+}
