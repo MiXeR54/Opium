@@ -17,7 +17,7 @@ router.post(
     try {
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
-        return res.send(400).json({
+        return res.status(400).json({
           errors: errors.array(),
           message: "Incorrect data registration"
         });
@@ -52,7 +52,7 @@ router.post(
     try {
       const errors = validationResult(req);
       if (!errors.isEmpty()) {
-        return res.send(400).json({
+        return res.status(400).json({
           errors: errors.array(),
           message: "Incorrect data in system login"
         });
