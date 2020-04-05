@@ -2,4 +2,4 @@
 SPA in React
 
 
-https://david-dm.org/MiXeR54/Opium.svg
+![Status](https://david-dm.org/MiXeR54/Opium.svg)
